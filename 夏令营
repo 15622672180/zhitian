@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	a=10,b=3,c=0;
+	c=a*34+b*22;
+	printf("��������Ӫ�ڼ��г�һ����%dǧ�ס�",c);
+	return 0;
+ } 
