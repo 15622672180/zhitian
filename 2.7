@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	int i,j,m,n;
+	  i=8;
+	  j=10;
+	  m=++i;
+	  n=j++;
+	  printf("i=%d j=%d m=%d n=%d\n",i,j,m,n);
+//前加加是先赋值加使用所以i=9，m=9；
+//后加加是先使用再赋值所以j=11,n=10; 
+}
