@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	int i;
+	int ge,shi,bai;
+	printf("ˮ�ɻ���Ϊ��");
+	for(i=100;i<1000;i++)
+	{
+		bai = i/100;
+		shi = i/10-bai*10;
+		ge  = i%10;
+		if(i == bai*bai*bai+shi*shi*shi+ge*ge*ge)
+		printf("%d,",i);
+		
+	}
+	 } 
