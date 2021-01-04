@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+	int m;
+	int a[20]={0};
+	int i,j=0;
+		scanf("%d",&m);
+		while(m>0)
+		{a[j]=m%2;
+		j++;
+		m=m/2;
+		}
+		for(i=j;i>=0;i--)
+		{printf("%d",a[i]);
+		
+		}
+
+}
